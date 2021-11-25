@@ -23,7 +23,8 @@
 ```sql
 -- (column name and type)
 CREATE TABLE my_first_table (
-  student_id	INT PRIMARY KEY,
+  student_id	
+  INT PRIMARY KEY,
   name VARCHAR(15),
   major VARCHAR(15)
 -- PRIMARY KEY(student_id) 
