@@ -20,3 +20,13 @@ print(myDB)
 myCursor = myDB.cursor()
 myCursor.execute("CREATE DATABASE my_second_schema")
 ```
+
+### 查看目前有的DataBase
+- 這裡的Cursor可以儲存來自execute()產生的值
+```python
+myCursor = myDB.cursor()
+myCursor.execute("SHOW DATABASES")
+
+for db in myCursor:
+    print(db)
+```
