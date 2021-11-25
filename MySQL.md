@@ -16,3 +16,15 @@
 - TIMESTAMP
   -  'YYYY-MM-DD' HH:MM:SS
   -  紀錄資料被insert的當下時間
+
+# Create Table
+- CREATE TABLE table_name (th_name, data_type, PRIMARY KEY, 等等);
+- 注意: PRIMARY KEY
+```sql
+-- (column name and type)
+CREATE TABLE my_first_table (
+  student_id	INT PRIMARY KEY,
+  name VARCHAR(15),
+  major VARCHAR(15)
+);
+```
