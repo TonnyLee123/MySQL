@@ -1,15 +1,18 @@
 # Data_Type
-1. INT 
-2. DECIMAL(9, 02)
+- INT 
+- DECIMAL(9, 02)
   - 9.02
-3. VARCHAR(100)
+- VARCHAR(100)
   - Variable Character 
   - 最多可存100字
 
-4. BLOB
+- BLOB
   - Binary Large Object
   - Store large data
 
-5. DATE
-  - 
-7. 
+- DATE
+  - 'YYYY-MM-DD'
+
+- TIMESTAMP
+  -  'YYYY-MM-DD' HH:MM:SS
+  -  紀錄資料被insert的當下時間
