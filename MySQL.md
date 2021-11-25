@@ -1,7 +1,7 @@
 # Data_Type
 - INT 
-- DECIMAL(9, 02)
-  - 9.02
+- DECIMAL(3, 2)
+  - 總共: 3位數，2位小數點
 - VARCHAR(100)
   - Variable Character 
   - 最多可存100字
@@ -28,4 +28,18 @@ CREATE TABLE my_first_table (
   major VARCHAR(15)
 -- PRIMARY KEY(student_id) 
 );
+```
+See Description
+```sql
+DESCRIBE my_first_table;
+```
+
+# Modify Table
+ALTER TABLE table_name ADD/... th_name th_data_type
+```sql
+ALTER TABLE my_first_table ADD gpa DECIMAL(3, 2);
+```
+# Delete Table
+```sql
+DROP TABLE my_first_table
 ```
