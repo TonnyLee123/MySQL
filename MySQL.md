@@ -52,6 +52,6 @@ DROP TABLE my_first_table
 INSERT INTO my_first_table VALUE(
 	1,
 	'Tonny',
-  'Biology'
+  	'Biology'
 );
 ```
