@@ -35,9 +35,10 @@ DESCRIBE my_first_table;
 ```
 
 # Modify Table
-ALTER TABLE table_name ADD/... th_name th_data_type
+ALTER TABLE table_name ADD/DROP... th_name th_data_type
 ```sql
 ALTER TABLE my_first_table ADD gpa DECIMAL(3, 2);
+ALTER TABLE my_first_table DROP column gpa;
 ```
 # Delete Table
 ```sql
