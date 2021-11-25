@@ -44,3 +44,14 @@ ALTER TABLE my_first_table DROP column gpa;
 ```sql
 DROP TABLE my_first_table
 ```
+
+# Insert data into table
+- INSERT INTO table_name VALUE()
+
+```sql
+INSERT INTO my_first_table VALUE(
+	1,
+	'Tonny',
+  'Biology'
+);
+```
