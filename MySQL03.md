@@ -54,7 +54,8 @@ myCursor.executemany(sqlFormula, students)
 myDB.commit()
 ```
 ### 讀取資料
-.fetchall() 獲取SQL執行的資料
+.fetchall() 獲取SQL所有執行的資料
+.fetchone() 獲取SQL第一個執行的資料
 ```python
 myCursor.execute('SELECT * FROM students')
 
