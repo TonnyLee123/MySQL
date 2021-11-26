@@ -30,3 +30,12 @@ myCursor.execute("SHOW DATABASES")
 for db in myCursor:
     print(db)
 ```
+
+### 輸入資料到Table
+INSERT INTO table_name(th_name, th_name) VALUES (%s, %s)", (1, 'Tonny', 20)
+```python
+myCursor.execute("INSERT INTO students(student_id, name, age) VALUES (%s, %s, %s)", (1, 'Tonny', 20))
+
+# commit後，才會執行任何改變(如insert)
+myDB.commit()
+```
