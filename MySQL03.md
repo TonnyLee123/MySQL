@@ -65,9 +65,16 @@ result = myCursor.fetchall()
 for row in result:
     print(row)
 ```
-### 刪除資料
+### 刪除某行資料
 ```python
 sql = 'DELETE FROM students WHERE student_id = 8'
+myCursor.execute(sql)
+myDB.commit()
+```
+
+### 刪除Table
+```
+sql = 'DROP TABLE my_first_table'
 myCursor.execute(sql)
 myDB.commit()
 ```
