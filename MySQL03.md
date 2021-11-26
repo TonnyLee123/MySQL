@@ -53,3 +53,14 @@ myCursor.executemany(sqlFormula, students)
 
 myDB.commit()
 ```
+### 讀取資料
+.fetchall() 獲取SQL執行的資料
+```python
+myCursor.execute('SELECT * FROM students')
+
+# 創建一個var儲存資上行在sql執行所獲的資料
+result = myCursor.fetchall()
+
+for row in result:
+    print(row)
+```
